@@ -109,3 +109,31 @@ h3 {
   font-family: Geneva;
   text-align: center;
 }
+
+.Github {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.LinkedIn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Email {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Column {
+  flex: 33.33%;
+  padding: 50px;
+}
