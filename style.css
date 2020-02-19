@@ -1,26 +1,26 @@
 @font-face {
   font-family: TSBlock;
-  src: url(TS_Block_Bold.ttf);
+  src: url(Fonts/TS_Block_Bold.ttf);
 }
 
 @font-face {
   font-family: CodeBold;
-  src: url(Code_Bold.otf);
+  src: url(Fonts/Code_Bold.otf);
 }
 
 @font-face {
   font-family: CodeLight;
-  src: url(Code_Light.otf);
+  src: url(Fonts/Code_Light.otf);
 }
 
 @font-face {
   font-family: Roboto;
-  src: url(Roboto-Regular.ttf);
+  src: url(Fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
   font-family: RobotoThin;
-  src: url(Roboto-Thin.ttf);
+  src: url(Fonts/Roboto-Thin.ttf);
 }
 
 
