@@ -133,3 +133,36 @@ h4 {
   align-items: center;
   justify-content: center;
 }
+
+.projectimages {
+    float:left;
+    margin-left: 30px;
+
+}
+
+.experiencetitletext {
+  display: block;
+  font-size: 50px;
+  margin-top: -20px;
+  margin-bottom: 0.83em;
+  margin-left: 30px;
+  margin-right: 0;
+  font-family: TSBLOCK;
+  text-align: center;
+  color: white;
+  display: inline;
+  }
+
+.experiencebodytext {
+    display: block;
+    font-size: 20px;
+    margin-top: 0px
+    margin-bottom: 1em;
+    margin-left: 30px;
+    margin-right: 0;
+    font-weight: bold;
+    color:white;
+    font-family: RobotoThin;
+    text-align: center;
+    display: inline;
+}
