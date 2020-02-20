@@ -137,8 +137,8 @@ h4 {
 /* Project / Experience Page */
 
 .projectimages {
-    float:left;
-    margin-left: 30px;
+    float:right;
+    margin-right: 50px;
 
 }
 
@@ -221,5 +221,4 @@ input[type=submit]:hover {
   width: 100%;
   font-size: 24px;
   font-family: RobotoThin;
-  text-decoration: none;
 }
