@@ -25,45 +25,57 @@
 
 
 
-ul.navbar{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+/* Add a black background color to the top navigation */
+.navbar {
   background-color: #000;
-  position: fixed;
-  top: 0;
-  width: 103%;
-}
-
-ul.navbar li{
-  float: center;
+  overflow: hidden;
+  border-bottom: 1px solid white;
 }
 
 
-ul.navbar li a {
+
+.navbar a {
   float: left;
+  display:block;
   color: white;
   text-align: center;
   width: 23%;
   font-size: 24px;
   font-family: RobotoThin;
-  padding: 12px;
+  padding: 14px;
   text-decoration: none;
-  border-bottom: 1px solid white;
 }
 
-ul.navbar li a.active-page {
+.navbar a.active-page {
       border-bottom: 5px solid white;
 }
 
+.navbar .icon {
+  display: none;
+}
 
-@media screen and (max-width: 1200px) {
-  ul.navbar li a {
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1399px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1399px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    display: none;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
     float: none;
     display: block;
-    width: 100%;
-    text-align: left; /* If you want the text to be left-aligned on small screens */
+    text-align: left;
   }
 }
 
@@ -75,7 +87,7 @@ body{
 h1 {
   display: block;
   font-size: 100px;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0;
@@ -113,7 +125,7 @@ h4 {
   display: block;
   font-size: 20px;
   margin-top: 0px;
-  margin-bottom: 1em;
+  margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
@@ -136,45 +148,57 @@ h4 {
 
 /* Project / Experience Page */
 
-.projectimages {
-    float:right;
-    margin-right: 50px;
 
+@media (max-width: 1399px) {
+  .projectimages {
+    float: left;
+    margin-left: 30px;
+  }
 }
 
+@media (min-width: 1399px) {
+  .slideshow-container {
+    float: right;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .slideshow-container {
+    float: left;
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 1399px) {
+  .projectimages {
+    float: right;
+    margin-right: 50px;
+  }
+}
+
+
 .experiencetitletext {
-  display: block;
   font-size: 50px;
-  margin-top: -20px;
-  margin-bottom: 0.83em;
-  margin-left: 30px;
-  margin-right: 0;
+  margin-top: 0px;
+  padding-left: 30px;
+  padding-right: 0;
   font-family: TSBLOCK;
-  text-align: center;
+  text-align: left;
   color: white;
-  display: inline;
+  display: inline-block;
+  block-size: 10px;
   }
 
 .experiencebodytext {
-    display: block;
     font-size: 20px;
-    margin-top: 0px
-    margin-bottom: 1em;
-    margin-left: 30px;
-    margin-right: 0;
+    padding-left: 30px;
+    padding-right: 0;
     font-weight: bold;
     color:white;
     font-family: RobotoThin;
-    text-align: center;
-    display: inline;
-}
-
-
-* {box-sizing: right}
-/* Slideshow container */
-.slideshow-container {
-    float:right;
-    margin-right: 50px;
+    text-align: left;
+    display: inline-block;
 }
 
 /* Hide the images by default */

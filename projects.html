@@ -7,22 +7,17 @@
   <title>Projects</title>
 </head>
 
-<ul class="navbar">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="experience.html">Experience</a></li>
-  <li><a href="projects.html" class="active-page">Projects</a></li>
-  <li><a href="contact.html">Contact</a></li>
-</ul>
+<div class="navbar" id="myNavbar">
+  <a href="index.html">Home</a>
+  <a href="experience.html">Experience</a>
+  <a href="projects.html" class="active-page">Projects</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="MobileBar()">&#9776;</a>
+</div>
 
 </br>
 </br>
 </br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<p class="experiencetitletext">BLACKJACK GAME</p>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -47,17 +42,11 @@ Your browser does not support the video tag.
   <a class="next" onclick="plusSlides(1,2)">&#10095;</a>
 </div>
 <br>
-<p class="experiencebodytext">While learning C++ to enhance my skill set in my free time, I decided to make a</br></p>
-<p class="experiencebodytext">fully-featured blackjack game to showcase my newly learned skills in</br></p>
-<p class="experiencebodytext">object oriented programming as well as fully grasp how to utilize a multimedia library</br></p>
-<p class="experiencebodytext">(SFML) to create applications with graphical representations.</br></p>
-
-
-
-
-
-</br>
-</br>
+<p class="experiencetitletext">BLACKJACK GAME</p>
+<p class="experiencebodytext">While learning C++ to enhance my skill set in my free time, I decided to make a</br>
+fully-featured blackjack game to showcase my newly learned skills in</br>
+object oriented programming as well as fully grasp how to utilize a multimedia library</br>
+(SFML) to create applications with graphical representations.</br></p>
 
 </br>
 </br>
@@ -70,13 +59,6 @@ Your browser does not support the video tag.
 </br>
 </br>
 </br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<p class="experiencetitletext">SIMPLE RISC MACHINE</p>
 <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -98,10 +80,11 @@ Your browser does not support the video tag.
   <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
 </div>
 <br>
-<p class="experiencebodytext">I developed a working computer instruction set from scratch using Verilog code</br></p>
-<p class="experiencebodytext">and a DE1-SOC FPGA along with a partner. We drafted circuit diagrams to fully comprehend</br></p>
-<p class="experiencebodytext">Verilog code in operation through waveforms and gained an understanding </br></p>
-<p class="experiencebodytext">of digital signals and systems as well as techniques to thoroughly debug complex code.</br></p>
+<p class="experiencetitletext">SIMPLE RISC MACHINE</p>
+<p class="experiencebodytext">I developed a working computer instruction set from scratch using Verilog code</br>
+and a DE1-SOC FPGA along with a partner. We drafted circuit diagrams to fully comprehend</br>
+Verilog code in operation through waveforms and gained an understanding </br>
+of digital signals and systems as well as techniques to thoroughly debug complex code.</br></p>
 </br>
 </br>
 
@@ -122,7 +105,6 @@ Your browser does not support the video tag.
 </br>
 </br>
 </br>
-<p class="experiencetitletext">Oven Controller</p>
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
@@ -144,12 +126,13 @@ Your browser does not support the video tag.
 </div>
 <script src="slideshow.js"></script>
 </br>
-<p class="experiencebodytext">As part of a mid-degree group project, we were required to build an oven reflow controller.</br></p>
-<p class="experiencebodytext">This type of oven is instrumental in soldering pcbs and creating working circuits.</br></p>
-<p class="experiencebodytext"> We completed this task by programming the interface and underlying operations</br></p>
-<p class="experiencebodytext">in assembly for the microcontroller we were using. We then gained a deeper understanding</br></p>
-<p class="experiencebodytext">of circuit operation while connecting the thermocouple and other components</br></p>
-<p class="experiencebodytext">needed to enable successful operation of our controller.</br></p>
+<p class="experiencetitletext">Oven Controller</p>
+<p class="experiencebodytext">As part of a mid-degree group project, we were required to build an oven reflow controller.</br>
+This type of oven is instrumental in soldering pcbs and creating working circuits.</br>
+We completed this task by programming the interface and underlying operations</br>
+in assembly for the microcontroller we were using. We then gained a deeper understanding</br>
+of circuit operation while connecting the thermocouple and other components</br>
+needed to enable successful operation of our controller.</br></p>
 
 </br>
 </br>
@@ -162,13 +145,13 @@ Your browser does not support the video tag.
 </br>
 </br>
 </br>
-<p class="experiencetitletext">Pinball Machine</p>
 <img class="projectimages" src="Images/Pinball.jpg" style="width:450px">
 </br>
-<p class="experiencebodytext">I learned basic wood working to design and build a pinball machine controlled by a Raspberry Pi.</br></p>
-<p class="experiencebodytext"> From there, I developed code using python to control a connected LCD scoreboard and </br></p>
-<p class="experiencebodytext"> included a number of GPIO peripherals including light and pressure sensors. </br></p>
-<p class="experiencebodytext">Pictured is an initial prototype of my woodworking design before electronics were implemented.</br></p>
+<p class="experiencetitletext">Pinball Machine</p>
+<p class="experiencebodytext">I learned basic wood working to design and build a pinball machine controlled by a Raspberry Pi.</br>
+From there, I developed code using python to control a connected LCD scoreboard and </br>
+included a number of GPIO peripherals including light and pressure sensors. </br>
+Pictured is an initial prototype of my woodworking design before electronics were implemented.</br></p>
 </br>
 </br>
 </br>
@@ -187,12 +170,22 @@ Your browser does not support the video tag.
 </br>
 </br>
 </br>
-</br>
-<p class="experiencetitletext">Personal Webpage</p>
 <img class="projectimages" src="Images/personal-webpage-code.png" style="width:450px">
 </br>
-<p class="experiencebodytext">My interest in programming languages encouraged me to learn HTML, CSS and Javascript, and I was</br></p>
-<p class="experiencebodytext">inspired to create a website to further develop and showcase my skills. The website you are viewing </br></p>
-<p class="experiencebodytext">right now was made from scratch by me in these 3 languages as a fun project over my reading break. </br></p>
-<p class="experiencebodytext">Although learning 3 languages and how to incorporate them at once was quite a challenge, being</br></p>
-<p class="experiencebodytext">able to overcome these barriers was its own reward!</br></p>
+<p class="experiencetitletext">Personal Webpage</p>
+<p class="experiencebodytext">My interest in programming languages encouraged me to learn HTML, CSS and Javascript, and I was</br>
+inspired to create a website to further develop and showcase my skills. The website you are viewing </br>
+right now was made from scratch by me in these 3 languages as a fun project over my reading break. </br>
+Although learning 3 languages and how to incorporate them at once was quite a challenge, being</br></p>
+able to overcome these barriers was its own reward!</br></p>
+
+<script>
+function MobileBar() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>

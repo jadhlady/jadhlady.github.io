@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
 <link href="style.css" rel="stylesheet" type="text/css">
 <link rel="icon" href="Images/Icon.png" type="image/png" sizes="16x16">
@@ -7,31 +7,27 @@
   <title>Experience</title>
 </head>
 
+<div class="navbar" id="myNavbar">
+  <a href="index.html">Home</a>
+  <a href="experience.html" class="active-page">Experience</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="MobileBar()">&#9776;</a>
+</div>
 
-<ul class="navbar">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="experience.html" class="active-page">Experience</a></li>
-  <li><a href="projects.html">Projects</a></li>
-  <li><a href="contact.html">Contact</a></li>
-</ul>
+</br>
+</br>
+</br>
 
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 <img class="projectimages" src="Images/nwhacks-logo.png" alt="Github" width="200px">
 <p class="experiencetitletext">NWHACKS 2020</p>
-
 </br>
-<p class="experiencebodytext">Participated in Western Canada's largest Hackathon. After a lengthy</br></p>
-<p class="experiencebodytext">application process, I had the opportunity to converse with like </br></p>
-<p class="experiencebodytext">minded individuals and form a team. Together we brainstormed project </br></p>
-<p class="experiencebodytext">ideas and  decided to utilize React and MongoDB to create a proof of concept</br></p>
-<p class="experiencebodytext">website for tracking and setting reminders for immunizations.</br></p>
+<p class="experiencebodytext">Participated in Western Canada's largest Hackathon. After a lengthy</br>
+application process, I had the opportunity to converse with like</br>
+minded individuals and form a team. Together we brainstormed</br>
+project ideas and  decided to utilize React and MongoDB to create a</br>
+proof of concept website for tracking and setting reminders</br>
+for immunizations.</br></p>
 
 
 </br>
@@ -51,9 +47,11 @@
 <img class="projectimages" src="Images/CPL-logo.png" alt="CPL" width="300px">
 <p class="experiencetitletext">Student page</p>
 </br>
-<p class="experiencebodytext">During my two years at the library, I was able to help patrons with inquiries</br></p>
-<p class="experiencebodytext">and provide customer support. I was also instrumental in coordinating  </br></p>
-<p class="experiencebodytext">local library events by communicating with both customers and fellow employees.</br></p>
+<p class="experiencebodytext">During my two years at the library, I was able to help patrons with</br>
+inquiries and provide customer support. I was also instrumental in</br>
+coordinating local library events by communicating with</br>
+both customers and fellow employees.</br></p>
+
 
 </br>
 </br>
@@ -65,3 +63,14 @@
 </br>
 </br>
 </br>
+
+<script>
+function MobileBar() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
