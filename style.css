@@ -84,42 +84,6 @@ body{
   background-color: #000;
 }
 
-h2 {
-  display: block;
-  font-size: 75px;
-  margin-top: -20px;
-  margin-bottom: 0.83em;
-  margin-left: 0;
-  margin-right: 0;
-  font-family: TSBLOCK;
-  text-align: center;
-  color: white;
-}
-
-h3 {
-  display: block;
-  font-size: 20px;
-  margin-top: -50px;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-  color:white;
-  font-family: RobotoThin;
-  text-align: center;
-}
-h4 {
-  display: block;
-  font-size: 20px;
-  margin-top: 0px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-  color:white;
-  font-family: RobotoThin;
-  text-align: center;
-}
 .row {
   display: flex;
   align-items: center;
@@ -180,7 +144,7 @@ h1 {
 }
 h2 {
   display: block;
-  font-size: 34px;
+  font-size: 37.5px;
   margin-top: -20px;
   margin-bottom: 0.83em;
   margin-left: 0;
@@ -189,6 +153,31 @@ h2 {
   text-align: center;
   color: white;
 }
+h3 {
+  display: block;
+  font-size: 10px;
+  margin-top: -50px;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color:white;
+  font-family: RobotoThin;
+  text-align: center;
+}
+h4 {
+  display: block;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color:white;
+  font-family: RobotoThin;
+  text-align: center;
+}
+
 }
 
 @media (min-width: 480px) {
@@ -214,6 +203,30 @@ h2 {
   font-family: TSBLOCK;
   text-align: center;
   color: white;
+}
+h3 {
+  display: block;
+  font-size: 20px;
+  margin-top: -50px;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color:white;
+  font-family: RobotoThin;
+  text-align: center;
+}
+h4 {
+  display: block;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color:white;
+  font-family: RobotoThin;
+  text-align: center;
 }
 }
 
