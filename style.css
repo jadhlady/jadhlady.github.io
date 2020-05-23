@@ -144,8 +144,7 @@ h1 {
 }
 h2 {
   display: block;
-  font-size: 37.5px;
-  margin-top: -20px;
+  font-size: 25px;
   margin-bottom: 0.83em;
   margin-left: 0;
   margin-right: 0;
@@ -198,6 +197,17 @@ h4 {
       text-align: left;
       display: inline-block;
   }
+  .contactformtext {
+    display: block;
+    font-size: 22.5px;
+    margin-top: -20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: TSBLOCK;
+    text-align: center;
+    color: white;
+    }
 
 }
 
@@ -270,6 +280,17 @@ h4 {
       text-align: left;
       display: inline-block;
   }
+  .contactformtext {
+    display: block;
+    font-size: 55px;
+    margin-top: -20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: TSBLOCK;
+    text-align: center;
+    color: white;
+    }
 }
 
 
@@ -326,18 +347,6 @@ h4 {
   to {opacity: 1}
 }
 
-/* Contact Us Page */
-.contactformtext {
-  display: block;
-  font-size: 55px;
-  margin-top: -20px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  font-family: TSBLOCK;
-  text-align: center;
-  color: white;
-  }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 51%; /* Full width */
