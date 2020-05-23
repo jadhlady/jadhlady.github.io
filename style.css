@@ -177,6 +177,27 @@ h4 {
   font-family: RobotoThin;
   text-align: center;
 }
+.experiencetitletext {
+  font-size: 25px;
+  margin-top: 0px;
+  padding-left: 30px;
+  padding-right: 0;
+  font-family: TSBLOCK;
+  text-align: left;
+  color: white;
+  display: inline-block;
+  block-size: 10px;
+  }
+.experiencebodytext {
+      font-size: 10px;
+      padding-left: 30px;
+      padding-right: 0;
+      font-weight: bold;
+      color:white;
+      font-family: RobotoThin;
+      text-align: left;
+      display: inline-block;
+  }
 
 }
 
@@ -228,9 +249,6 @@ h4 {
   font-family: RobotoThin;
   text-align: center;
 }
-}
-
-
 .experiencetitletext {
   font-size: 50px;
   margin-top: 0px;
@@ -242,17 +260,18 @@ h4 {
   display: inline-block;
   block-size: 10px;
   }
-
 .experiencebodytext {
-    font-size: 20px;
-    padding-left: 30px;
-    padding-right: 0;
-    font-weight: bold;
-    color:white;
-    font-family: RobotoThin;
-    text-align: left;
-    display: inline-block;
+      font-size: 20px;
+      padding-left: 30px;
+      padding-right: 0;
+      font-weight: bold;
+      color:white;
+      font-family: RobotoThin;
+      text-align: left;
+      display: inline-block;
+  }
 }
+
 
 /* Hide the images by default */
 .mySlides1 {
