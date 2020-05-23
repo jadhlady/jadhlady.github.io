@@ -84,19 +84,6 @@ body{
   background-color: #000;
 }
 
-h1 {
-  display: block;
-  font-size: 100px;
-  margin-top: 100px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0;
-  font-family: TSBlock;
-  color: white;
-  letter-spacing: 5px
-  text-align: center;
-}
-
 h2 {
   display: block;
   font-size: 75px;
@@ -175,6 +162,59 @@ h4 {
     float: right;
     margin-right: 50px;
   }
+}
+
+
+@media (max-width: 480px) {
+h1 {
+  display: block;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0;
+  font-family: TSBlock;
+  color: white;
+  letter-spacing: 5px
+  text-align: center;
+}
+h2 {
+  display: block;
+  font-size: 34px;
+  margin-top: -20px;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: TSBLOCK;
+  text-align: center;
+  color: white;
+}
+}
+
+@media (min-width: 480px) {
+h1 {
+  display: block;
+  font-size: 100px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0;
+  font-family: TSBlock;
+  color: white;
+  letter-spacing: 5px
+  text-align: center;
+}
+h2 {
+  display: block;
+  font-size: 75px;
+  margin-top: -20px;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: TSBLOCK;
+  text-align: center;
+  color: white;
+}
 }
 
 
